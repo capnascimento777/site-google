@@ -1,12 +1,17 @@
-img{
+*{/*Universal*/
+    margin: 0;
+    padding: 0;
+}
+
+img{/*ESTILO TAG IMAGEM*/
     height: 92px; /*altura*/
 }
 
-a{
-    text-decoration: none;
-    color: #1f1f1f;
-    font-size: 13px;
-    font-family: sans-serif;
+a{ /*TAG LINK/ANCORA*/
+    text-decoration: none;/*tirou decoração do texto*/
+    color: #1f1f1f;/*COR DO TEXTO*/
+    font-size: 13px;/*tamanho da fonte/texto*/
+    font-family: sans-serif;/*TIPO/FAMILIA DA FONTE*/
 }
 
 .icone-produtos{
@@ -14,9 +19,15 @@ a{
     fill: #444746;
 }
 
-.botao-login{
-    background-color: #1a73e6;
-    color: white;
-    padding: 12px 9px;
-    border-radius: 40px;
+.botao-login{/*classe botao-login*/
+    background-color: #1a73e6;/*COR DO FUNDO*/
+    color: white;/*cor do texto*/
+    padding: 12px 9px;/*ESPACAMENTO INTERNO*/
+    font-weight: 500;/*PESO DA FONTE*/
+    border-radius: 40px;/*RAIO DA BORDA(CURVATURA)*/
 }
+
+FOOTER{
+    background-color: #f2f2f2;
+}
+
