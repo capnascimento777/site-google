@@ -1,6 +1,8 @@
 *{/*Universal*/
     margin: 0;
     padding: 0;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
 }
 
 img{/*ESTILO TAG IMAGEM*/
@@ -31,3 +33,26 @@ FOOTER{
     background-color: #f2f2f2;
 }
 
+.caixa-rodape{
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.caixa-rodape-borda{
+    border-bottom: 1px solid #dadce0;
+}
+
+header{/*cabeçlho*/
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 15px;
+    padding: 10px 14px;
+}
+
+.caixa-links{
+    display: flex;
+    gap: 30px;/*espacamento entre as linhas da div*/
+
+}
