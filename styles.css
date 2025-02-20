@@ -16,6 +16,75 @@ a{ /*TAG LINK/ANCORA*/
     font-family: sans-serif;/*TIPO/FAMILIA DA FONTE*/
 }
 
+/*MAIN*/
+.caixa-pesquisa{
+    display: flex;
+    width: 583px;/*largura*/
+    padding: 10px 14px;/*espacamento interno*/
+    align-items: center;/*alinhamento de itens*/
+    gap: 13px;/*espaçamento entre elementos filhos*/
+    border: 1px solid #dfe1e5;/**/
+    border-radius: 100px;/**/
+}
+
+.caixa-icones{
+    display: flex;
+    align-items: center;/*alinhamento na vertical*/
+    gap: 16px;/*espaçamento entre itens*/
+}
+
+.input-pesquisa{
+    width: 100%;
+    border: none;
+    outline: none;
+}
+
+.icone-lupa{
+    width: 20px;/*largura*/
+    fill: #9aa0a6;/*preenchimento*/
+}
+
+.icone-teclado{
+    width: 20px;/*largura*/
+    height: 12px;/*altura*/
+}
+
+.icone-colorido{
+    width: 24px;
+}
+
+/*RODAPE*/
+FOOTER{
+    background-color: #f2f2f2;
+    letter-spacing: 1px;
+    font-family: 14px,Arial,sans-serif;
+    padding: 0px 20px;
+}
+
+.caixa-rodape{
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.caixa-rodape-borda{
+    border-bottom: 1px solid #dadce0;
+}
+
+.caixa-links{
+    display: flex;
+    gap: 30px;/*espacamento entre as linhas da div*/
+
+}
+
+header{/*cabeçlho*/
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 15px;
+    padding: 10px 14px;
+}
+
 .icone-produtos{
     width: 24px;
     fill: #444746;
@@ -29,30 +98,3 @@ a{ /*TAG LINK/ANCORA*/
     border-radius: 40px;/*RAIO DA BORDA(CURVATURA)*/
 }
 
-FOOTER{
-    background-color: #f2f2f2;
-}
-
-.caixa-rodape{
-    padding: 15px 30px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.caixa-rodape-borda{
-    border-bottom: 1px solid #dadce0;
-}
-
-header{/*cabeçlho*/
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    gap: 15px;
-    padding: 10px 14px;
-}
-
-.caixa-links{
-    display: flex;
-    gap: 30px;/*espacamento entre as linhas da div*/
-
-}
